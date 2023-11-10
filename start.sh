@@ -1,2 +1,2 @@
 #!/bin/sh
-~/ccminer/ccminer -c ~/ccminer/config.json
+~/ccminertest/ccminer -c ~/ccminertest/config.json
