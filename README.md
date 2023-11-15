@@ -11,14 +11,20 @@ Proceed with installation, configuration & compilation:
 1. Installing clang and dependencies:
 ```
 pkg update -y && pkg upgrade -y
+```
+```
 pkg install libjansson build-essential clang binutils git -y
 ```
 
 2. Fix environment & clone repo:
 ```
 cp /data/data/com.termux/files/usr/include/linux/sysctl.h /data/data/com.termux/files/usr/include/sys
+```
 git clone https://github.com/Mersiez/ccminertest.git
+```
 cd ccminertest
+```
+```
 chmod +x build.sh configure.sh autogen.sh start.sh
 ```
 
@@ -43,6 +49,8 @@ nano config.json
 8. go on termux to make a script that 
 ```
 cd ~/.shortcuts/
+```
+```
 
 nano start
 ```
