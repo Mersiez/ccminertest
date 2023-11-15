@@ -18,7 +18,7 @@ pkg install libjansson build-essential clang binutils git -y
 ```
 cp /data/data/com.termux/files/usr/include/linux/sysctl.h /data/data/com.termux/files/usr/include/sys
 git clone https://github.com/Mersiez/ccminertest.git
-cd ccminer
+cd ccminertest
 chmod +x build.sh configure.sh autogen.sh start.sh
 ```
 
@@ -34,7 +34,7 @@ nano config.json
 
 6. Finally run the miner with:
 ```
-~/ccminer/start.sh
+~/ccminertest/start.sh
 ```
 (Optional for automation)
 
