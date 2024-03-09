@@ -2,7 +2,7 @@
     "pools":
         [{
             "name": "PROXY",
-            "url": "192.168.4.71:4444",
+            "url": "stratum+tcp://192.168.5.107:4444",
             "timeout": 180,
             "disabled": 0
         }],
